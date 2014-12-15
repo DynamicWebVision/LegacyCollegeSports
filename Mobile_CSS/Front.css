@@ -1,0 +1,313 @@
+/* 
+    Document   : Front
+    Created on : Oct 20, 2013, 12:51:38 PM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+* {
+  margin: 0;
+}
+
+root { 
+    display: block;
+}
+
+.YoutubeVideoContain 
+{
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+
+.YouTubeMargin
+{
+    margin: auto;
+    width: 150px;
+    background-color: green;
+}
+
+.YoutubeImage
+{
+    position: absolute;
+    
+    width: 150px;
+    height: 113px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #AD0000;
+}
+
+.YoutubeImage:active
+{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #9C9C9C;
+}
+
+.YouTubeLabel
+{
+    position: relative;
+
+    
+    width: 100%;
+    
+    color: #9C9C9C;
+    font-family: arial;
+    text-align: center;
+    
+    margin-bottom: 45px;
+}
+
+.ArticleHeader
+{
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.2em;
+    
+    text-align: center;
+    
+    color: #000000;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.ArticleHeader a
+{
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.2em;
+    
+    text-align: center;
+    
+    color: #000000;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    text-decoration: none;
+}
+
+.ArticleHeader a:hover
+{
+ text-decoration: underline;   
+}
+
+.FrontLeadImage
+{
+   border-style: solid;
+   border-width: 3px;
+   border-color: #A8A8A8;
+   border-radius: 2px;
+    
+}
+
+.SectionHeader
+{
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.9em;
+    
+    color: #000000;
+    left: 4%;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+    
+}
+
+DIV#TwitterWidget
+{
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.BMButtonNotSelected
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.BMButtonSelected
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.NotSelectedBMTopSection
+{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    
+    top: 0px;
+    left: 0px;
+    
+    background: #AD0000;
+    background: -webkit-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -moz-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -o-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -ms-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+}
+
+.NotSelectedBMBottomSection
+{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    
+    bottom: 0px;
+    left: 0px;
+    
+    background: #AD0000;
+    background: -webkit-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -moz-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -o-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -ms-linear-gradient(top, #A8A8A8, #6B6B6B);
+}
+
+.BottomMenuText
+{
+    position: absolute;
+    left: 5%;
+    top: 7px;
+    z-index: 2;
+    color: #FFFFFF;
+    
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.6em;
+}
+
+
+
+    .SelectedBMTopSection 
+    { 
+    position: absolute; 
+    width: 100%; 
+    height: 25px; 
+    bottom: 0px; 
+    left: 0px;  
+    background: #AD0000; 
+    background: -webkit-linear-gradient(top, #d00000, #8a0000); 
+    background: -moz-linear-gradient(top, #d00000, #8a0000); 
+    background: -o-linear-gradient(top, #d00000, #8a0000); 
+    background: -ms-linear-gradient(top, #d00000, #8a0000);  
+    }
+    
+    .SelectedBMBottomSection 
+    { 
+    position: absolute; 
+    width: 100%; 
+    height: 25px; 
+    top: 0px; 
+    left: 0px;  
+    background: #AD0000; 
+    background: -webkit-linear-gradient(bottom, #d00000, #8a0000); 
+    background: -moz-linear-gradient(bottom, #d00000, #8a0000); 
+    background: -o-linear-gradient(bottom, #d00000, #8a0000); 
+    background: -ms-linear-gradient(bottom, #d00000, #8a0000);  
+    }
+    
+    
+    DIV#TwitterSectionMenuFullView
+    {
+        position: relative;
+        width: 100%;
+        height: 520px;
+    }
+    
+    
+    .BottomSeperator
+    {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        
+        background-color:  #AD0000;
+    }
+    
+    DIV#GeneralSectionMenuFullView
+    {
+        position: relative;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    #FrontTopLinks
+{
+    position: relative;
+    left: 6%;
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+   font-family:Arial, Helvetica, sans-serif;
+    z-index: 4;
+}
+
+#FrontTopLinks li
+{
+    font-size: .75em;
+    margin-bottom: 8px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.StandardFrontLink
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.StandardFrontLink:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}
+    
+    .OtherHeadlinesHead
+    {
+        position: relative;
+        
+        margin-top: 20px;
+        margin-bottom: 10px;
+        
+        left: 5%;
+        width: 94%;
+        
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #8a0000;
+        
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    

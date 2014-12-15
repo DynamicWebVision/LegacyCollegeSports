@@ -1,0 +1,546 @@
+/* 
+    Document   : MobileMain
+    Created on : Sep 30, 2013, 2:15:57 AM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+* {
+  margin: 0;
+}
+
+DIV#Header
+{   
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    padding-top: 5px;
+    
+    
+    
+    z-index: 10000;
+/*    border-bottom-color: #007f7f;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;*/
+    
+    -webkit-box-shadow: 0px 2px 2px #888888;
+   -moz-box-shadow: 0px 2px 2px #888888;
+        box-shadow: 0px 2px 2px #888888;
+        
+}
+
+DIV#logo
+{
+    
+  
+    width: 100%;
+    text-align: center;
+    
+    
+    text-shadow: 2px 2px #737373;
+    
+}
+
+
+
+
+
+.temppush
+{
+    position: relative;
+    width: 100%;
+    height: 599px;
+}
+
+.BMButtonNotSelected
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.BMButtonSelected
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.NotSelectedBMTopSection
+{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    
+    top: 0px;
+    left: 0px;
+    
+    background: #AD0000;
+    background: -webkit-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -moz-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -o-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+    background: -ms-linear-gradient(bottom, #A8A8A8, #6B6B6B);
+}
+
+.NotSelectedBMBottomSection
+{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    
+    bottom: 0px;
+    left: 0px;
+    
+    background: #AD0000;
+    background: -webkit-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -moz-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -o-linear-gradient(top, #A8A8A8, #6B6B6B);
+    background: -ms-linear-gradient(top, #A8A8A8, #6B6B6B);
+}
+
+.BottomMenuText
+{
+    position: absolute;
+    left: 5%;
+    top: 7px;
+    z-index: 2;
+    color: #FFFFFF;
+    
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.6em;
+}
+
+.SectionHeader
+{
+    position: relative;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.9em;
+    
+    color: #000000;
+    left: 4%;
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.LineItemContain
+{
+    position: relative;
+    width: 100%;
+    height: 16px;
+    margin-bottom: 6px;
+}
+
+DIV#TopPush
+{
+    position: relative;
+    width: 100%;
+    height: 55px;
+}
+
+.SmallBump
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.SchoolProfileLabelLinkContain
+    {
+        position: absolute;
+        left: 8%;
+        font-family: arial;
+        font-size: 1.1em;
+    }
+    
+.hidden
+{
+    visibility: hidden;
+}
+
+.ExpandableHeadNotActive
+    {
+        position: absolute;
+        left: 8%;
+        font-family: arial;
+        
+        font-size: 1.1em;
+    }
+    
+.ExpandableHeadActive
+{
+    position: absolute;
+    left: 8%;
+    font-family: arial;
+    
+    font-style: italic;
+    
+    font-size: 1.1em;
+}
+    
+    #GeneeralSectionMenuFullView
+    {
+        position: relative;
+        margin-bottom: 65px;
+    }
+    
+    DIV#FootballSectionMenuFullView
+    {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    
+    DIV#BasketballSectionMenuFullView
+    {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    
+    DIV#FanSitesSectionMenuFullView
+    {
+        position: relative;
+        margin-bottom: 25px;
+    }
+    
+.DataList
+{
+    position: relative;
+    left: 15%;
+    
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    font-family: arial;
+    
+    color: #000000;
+}
+
+.YoutubeVideoContain 
+{
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+
+.YouTubeTitle
+{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    color: #6B6B6B;
+    font-family: arial;
+}
+
+.youtubevideostyle
+{
+    margin: auto;
+    background-color: orange;
+}
+
+.YoutubeAuto
+{
+    width: 150px;
+    margin: auto;
+}
+
+.VideosBump
+{
+    position: relative;
+    width: 100%;
+    height: 20px;
+}
+
+DIV#NavigationMenu
+{   
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    background: url("bg/low_contrast_linen.png");
+    
+    top: 0px;
+    left: 0px;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    z-index: 10002;
+    
+    overflow-y: scroll;
+}
+
+DIV#SchoolsNavigationMenu
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    background: url("bg/low_contrast_linen.png");
+    
+    top: 0px;
+    left: 0px;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    z-index: 10003;
+    
+    overflow-y: scroll;
+}
+
+#NavigationHead
+{
+    position: relative;
+    margin-top: 15px;
+    left: 2%;
+    width: 97%;
+    
+    font-family: arial;
+    
+    color: #FFFFFF;
+    
+    font-size: 1.6em;
+    
+    font-family: 'Francois One', sans-serif;
+    
+    margin-bottom: 15px;
+}
+
+.NavigationLine
+{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    
+    border-top-style: solid;
+    border-top-color: #D9D9D9;
+    border-top-width: 1px;
+ 
+}
+
+.NavigationLine:active
+{
+    position: relative;
+    width: 100%;
+    height: 35px;
+   
+    background-color: #D9D9D9;
+    
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 1px;
+ 
+}
+
+.NavigationSchoolLine
+{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    
+    border-top-style: solid;
+    border-top-color: #D9D9D9;
+    border-top-width: 1px;
+ 
+}
+
+.NavigationSchoolLine:active
+{
+    position: relative;
+    width: 100%;
+    height: 35px;
+   
+    background-color: #D9D9D9;
+    
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 1px;
+ 
+}
+
+.NavLink
+{
+    position: absolute;
+    top: 7px;
+    color: #D9D9D9;
+    left: 4%;
+    
+    font-family: arial;
+    
+    font-size: 1.1em;
+    
+    text-decoration: none;
+}
+
+.NavBottomBorder
+{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    
+    background-color: #D9D9D9;
+}
+
+.NavBackButtonContain
+{
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+}
+
+.NavBackButton
+{
+    margin: auto;
+    width: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    
+    color: #6B6B6B;
+    
+    background-color: #D9D9D9;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #6B6B6B;
+    font-family: arial;
+}
+
+.NavBackButton:active
+{
+    border-color: #000000;
+    
+    background-color: #A8A8A8;
+    
+    color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.NavBackButtonSchools
+{
+    margin: auto;
+    width: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    
+    color: #6B6B6B;
+    
+    background-color: #D9D9D9;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #6B6B6B;
+    font-family: arial;
+}
+
+.NavBackButtonSchools:active
+{
+    border-color: #000000;
+    
+    background-color: #A8A8A8;
+    
+    color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+.NavBackButtonSchoolsFixed
+{
+    position: fixed;
+    
+    bottom: 15px;
+    width: 100%;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 10005;
+}
+
+
+.ConferenceHead
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    
+    margin-top: 45px;
+    height: 35px;
+    
+    font-style: italic;
+    font-size: 1.4em;
+    
+    color: #D9D9D9;
+    
+    font-family: arial;
+}
+
+.Scroller
+{   
+    top: 0px;
+    position: fixed;
+    right: 0px;
+    width: 12%;
+    height: 100%;
+    z-index: 10005;
+    
+    background-color: #FFFFFF;
+    
+    opacity: .5;
+}
+
+.ScrollText
+{   
+    top: 0px;
+    position: fixed;
+    right: 0px;
+    width: 12%;
+    z-index: 10006;
+    height: 100%;
+    
+    color: #FFFFFF;
+    
+}
+
+.UpArrowScroll
+{
+    position: absolute;
+    top: 2%;
+    
+    width: 100%;
+    
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.DownArrowScroll
+{
+    position: absolute;
+    bottom: 2%;
+    
+    width: 100%;
+    
+    text-align: center;
+    font-size: 2em;
+    
+}
+

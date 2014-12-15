@@ -1,0 +1,731 @@
+/* 
+    Document   : School_Profile
+    Created on : Jun 5, 2013, 1:08:01 AM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+DIV#TempPush
+{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    
+}
+
+
+#MainBody
+{
+    background: url("BACKGROUNDS/concrete_wall_2.png");
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+.OfficialAthleticSiteLink
+{
+    position: absolute;
+    color: #808080;
+    top: 100px;
+    left: 50px;
+    font-size: 1.2em;
+}
+
+.GameRadioLink
+{
+    position: absolute;
+    color: #808080;
+    top: 130px;
+    left: 68px;
+    font-size: 1.2em;
+}
+
+DIV#TopLinksContain
+{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    
+    background-color: orange;
+    z-index: 900;
+}
+
+DIV#GeneralTopSection
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    
+    background: #FFFFFF; /* Background for IE9 and older browsers */
+    background: -webkit-linear-gradient(bottom, #FAFAFA,#FFFFFF ); /* Background for Chrome & Safari */
+    background: -moz-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Firefox */
+    background: -o-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Opera */
+    background: -ms-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Internet Explorer 10 */
+
+}
+
+DIV#FootballSection
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    
+    background: #FFFFFF; /* Background for IE9 and older browsers */
+    background: -webkit-linear-gradient(bottom, #FAFAFA,#FFFFFF ); /* Background for Chrome & Safari */
+    background: -moz-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Firefox */
+    background: -o-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Opera */
+    background: -ms-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Internet Explorer 10 */   
+}
+
+DIV#BasketballSection
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    
+    background: #FFFFFF; /* Background for IE9 and older browsers */
+    background: -webkit-linear-gradient(bottom, #FAFAFA,#FFFFFF ); /* Background for Chrome & Safari */
+    background: -moz-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Firefox */
+    background: -o-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Opera */
+    background: -ms-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Internet Explorer 10 */   
+}
+
+DIV#Section4Section
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+    
+    background: #FFFFFF; /* Background for IE9 and older browsers */
+    background: -webkit-linear-gradient(bottom, #FAFAFA,#FFFFFF ); /* Background for Chrome & Safari */
+    background: -moz-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Firefox */
+    background: -o-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Opera */
+    background: -ms-linear-gradient(bottom, #FAFAFA,#FFFFFF); /* Background for Internet Explorer 10 */   
+}
+
+
+
+.SectionHead
+{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    font-size: 2.5em;
+    font-family: 'Francois One', sans-serif;
+}
+
+.FootballRoster
+{
+    position: absolute;
+    color: #808080;
+    top: 90px;
+    left: 50px;
+    font-size: 1.2em;
+}
+
+.BasketballRoster
+{
+    position: absolute;
+    color: #808080;
+    top: 90px;
+    left: 50px;
+    font-size: 1.2em;
+}
+
+.BasketballSchedule
+{
+    position: absolute;
+    color: #808080;
+    top: 120px;
+    left: 50px;
+    font-size: 1.2em;
+}
+
+.FootballSchedule
+{
+    position: absolute;
+    color: #808080;
+    top: 120px;
+    left: 50px;
+    font-size: 1.2em;
+}
+
+DIV#GeneralInfoButton
+{
+    position: absolute;
+    left: 100px;
+    top: 4px;
+    width: 85px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    height: 16px;
+    
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+DIV#ProfileMenuLinkContain
+{
+    position: absolute;
+    width: 1024px;
+    height: 100%;
+}
+
+.MenuSchoolLink:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+DIV#FootballButton
+{
+    position: absolute;
+    left: 285px;
+    top: 4px;
+    width: 85px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    height: 16px;
+    
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+DIV#BasketballButton
+{
+    position: absolute;
+    left: 470px;
+    top: 4px;
+    width: 85px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    height: 16px;
+    
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    
+    font-size: 1em;
+    border-radius: 8px;
+}
+DIV#Section4Button
+{
+    position: absolute;
+    left: 655px;
+    top: 4px;
+    width: 85px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    height: 16px;
+    
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    
+    font-size: 1em;
+    border-radius: 8px;
+}
+DIV#Section5Button
+{
+    position: absolute;
+    left: 840px;
+    top: 4px;
+    width: 85px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    height: 16px;
+    
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+
+
+#RadioImg
+{
+    position: absolute;
+    top: 133px;
+    left: 50px;
+    height: 12px;
+    width: 12px;
+}
+
+DIV#FixedContain
+{
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    z-index: 1001;
+}
+
+DIV#VideoContainCenter
+{
+    margin: auto;
+    width: 420px;
+}
+
+DIV#Video1
+{
+    position: absolute;
+    width: 420px;
+    height: 315px;
+    
+    border-width: 3px;
+    border-style: ridge;
+    border-color: #71C671;
+    
+    background-color: #7A7A7A;
+    
+    box-shadow: 4px 4px 3px #888888;
+}
+
+.CloseYouTubeVideo1
+{
+    
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 31px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;   
+}
+
+.CloseYouTubeVideo1:before
+{
+    content: "×";
+}
+
+DIV#WhiteOverBlanket
+{   top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    background-color: #FFFFFF;
+    
+    z-index: 1001;
+    opacity: .5;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.SectionLabel
+{
+    color: #000000;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+DIV#TournamnetAppearencesLabel
+{
+    position: absolute;
+    
+}
+
+DIV#FootballTop25
+{
+    position: absolute;
+}
+
+DIV#SweetSixteenAppearencesLabel
+{
+    position: absolute;
+    
+    top: 20px;
+    
+}
+
+DIV#EliteEightAppearencesLabel
+{
+    position: absolute;
+    
+    top: 40px;
+}
+
+DIV#FinalFourAppearencesLabel
+{
+    position: absolute;
+    
+    top: 60px;
+}
+
+DIV#NationalChampionshipsLabel
+{
+    position: absolute;
+    
+    top: 80px;
+}
+
+DIV#BasketballHistoryData
+{
+    position: absolute;
+    
+    left: 50px;
+    top: 160px;
+    width: 250px;
+}
+
+DIV#AllTimeRecordBasketball
+{
+    left: 50px;
+    bottom: 15px;
+}
+
+DIV#LastSeason
+{
+    position: absolute;
+    
+}
+
+
+
+DIV#FixedContainBorder
+{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 4px;
+    z-index: 10000;
+}
+
+DIV#BorderCenterAuto
+{
+    margin: auto;
+    width: 980px;
+}
+
+DIV#BorderCenterAbsolute
+{
+    width: 100%;
+    position: absolute;
+    height: 1px;
+}
+
+
+
+.SectionBarLeftTest
+{
+    position: absolute;
+    left: -4px;
+    top: 0px;
+    width: 8px; 
+    height: 100%;
+    background: #C4C4C4; 
+    background: -webkit-linear-gradient(left, #0F0F0F, #949494); 
+    background: -moz-linear-gradient(left, #0F0F0F, #949494); 
+    background: -o-linear-gradient(left, #0F0F0F, #949494); 
+    background: -ms-linear-gradient(left, #0F0F0F, #949494); 
+    box-shadow: -5px 0px 8px #888888;
+    
+    z-index: 2147483647;
+}
+
+div#leftbordertest
+{
+    position: absolute;
+    left: -60px;
+    
+    height: 20px;
+    width: 30px;
+    
+    background-color: orange;
+}
+
+div#bordercontain
+{
+    width: 980px;
+    height: 1px;
+    
+    margin: auto;
+    
+    z-index: 2147483647;
+}
+
+div#bordercontainabsolute
+{
+    position: absolute;
+    width: 980px;
+    height: 1px;
+}
+
+div#teadsfst
+{
+    position: absolute;
+    bottom: 230px;
+    left: -100px;
+    
+    width: 100px;
+    height: 200px;
+    background-color: orange;
+}
+
+DIV#MainContentContain
+{
+    margin: auto;
+    width: 1024px;
+    
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    height: 100%;
+}
+
+div#TopPush
+{
+    position: relative;
+    height: 84px;
+    width: 1px;
+}
+
+DIV#FooterContain
+{
+    
+    height: 45px;
+    width: 100%;
+    background: #000000;
+    clear: both;
+    
+}
+
+DIV#FooterCenterMargin
+{
+    margin: auto;
+    width: 1024px;
+}
+
+DIV#FooterCenterAbsolute
+{
+    position: absolute;
+    width: 1024px;
+    height: 40px;
+}
+
+DIV#CopyRight
+{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    
+    color: #E8E8E8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .75em;
+}
+
+#navlist
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    color: #E8E8E8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .75em;
+}
+
+#navlist a
+{
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+#navlist a:hover
+{
+    color: #E8E8E8;
+    text-decoration: underline;
+}
+
+#navlist li
+{
+
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+
+color: #E8E8E8;
+}
+
+#cssmenu
+{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  color: #333333;
+  display: inline-block;
+  
+  font-family: 'Francois One', sans-serif;
+  font-size: .8em;
+  min-width: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #eeeeee;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu > ul > li.active > a {
+  background: #d9d9d9 url(grad_light.png) repeat-x left bottom;
+  background: -moz-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9d9), color-stop(100%, #bfbfbf));
+  background: -webkit-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -o-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -ms-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: linear-gradient(to bottom, #d9d9d9 0%, #bfbfbf 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#bfbfbf', GradientType=0);
+  box-shadow: inset 0 0 10px #979797, inset 0 10px 10px #979797;
+  -moz-box-shadow: inset 0 0 10px #979797, inset 0 10px 10px #979797;
+  -webkit-box-shadow: inset 0 0 10px #979797, inset 0 10px 10px #979797;
+  filter: none;
+}
+#cssmenu > ul > li.active a:hover {
+  background: -moz-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9d9), color-stop(100%, #bfbfbf));
+  background: -webkit-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -o-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: -ms-linear-gradient(top, #d9d9d9 0%, #bfbfbf 100%);
+  background: linear-gradient(to bottom, #d9d9d9 0%, #bfbfbf 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#bfbfbf', GradientType=0);
+  filter: none;
+}
+#cssmenu > ul > li a {
+  box-shadow: inset 0 0 0 1px #ffffff;
+  -moz-box-shadow: inset 0 0 0 1px #ffffff;
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+  background: #bfbfbf url(grad_light.png) repeat-x left top;
+  background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(50%, #e5e5e5), color-stop(51%, #d7d7d7), color-stop(100%, #ededed));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 50%, #d7d7d7 51%, #ededed 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+  border-bottom: 1px solid #d2d2d2;
+  border-top: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  line-height: 34px;
+  padding: 0 35px;
+  filter: none;
+}
+#cssmenu > ul > li a:hover {
+  background: #ffffff url(grad_light.png) repeat-x left bottom;
+  background: -moz-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9d9d9), color-stop(50%, #bfbfbf), color-stop(51%, #b0b0b0), color-stop(100%, #c7c7c7));
+  background: -webkit-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+  background: -o-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+  background: -ms-linear-gradient(top, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+  background: linear-gradient(to bottom, #d9d9d9 0%, #bfbfbf 50%, #b0b0b0 51%, #c7c7c7 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+  filter: none;
+}
+#cssmenu > ul > li:first-child a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  border-left: 1px solid #d2d2d2;
+}
+#cssmenu > ul > li:last-child a {
+  border-radius: 0 5px 0px 0;
+  -moz-border-radius: 0 5px 0px 0;
+  -webkit-border-radius: 0 5px 0px 0;
+}
+#cssmenu .has-sub:hover ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: -1px;
+  min-width: 100%;
+  text-align: center;
+  width: 100%;
+}
+#cssmenu .has-sub ul li {
+  text-align: center;
+}
+#cssmenu .has-sub ul li a {
+  border-top: 0 none;
+  border-left: 1px solid #d2d2d2;
+  display: block;
+  font-size: 12px;
+  line-height: 120%;
+  padding: 9px 5px;
+  text-align: center;
+}
+
+
+DIV#borderleft { 
+    position: absolute; 
+    left: -8px; 
+    top: -92px; 
+    width: 8px; 
+    height: 100%; 
+    background: #C4C4C4; 
+    background: -webkit-linear-gradient(left, #0F0F0F, #949494); 
+    background: -moz-linear-gradient(left, #0F0F0F, #949494); 
+    background: -o-linear-gradient(left, #0F0F0F, #949494); 
+    background: -ms-linear-gradient(left, #0F0F0F, #949494); 
+    box-shadow: -5px 0px 8px #888888; 
+}
+
+DIV#borderright { 
+    position: absolute; 
+    left: 1024px; 
+    top: -92px; 
+    width: 8px; 
+    height: 100%; 
+    background: #C4C4C4; 
+    background: -webkit-linear-gradient(right, #0F0F0F, #949494); 
+    background: -moz-linear-gradient(right, #0F0F0F, #949494); 
+    background: -o-linear-gradient(right, #0F0F0F, #949494); 
+    background: -ms-linear-gradient(right, #0F0F0F, #949494); 
+    box-shadow: 5px 0px 8px #888888; 
+}

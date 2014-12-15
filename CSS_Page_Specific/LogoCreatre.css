@@ -1,0 +1,318 @@
+/* 
+    Document   : test
+    Created on : Nov 5, 2013, 1:46:19 AM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+DIV#BOX
+{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    
+    width: 250px;
+    height: 250px;
+    
+    
+}
+
+.Box1
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(right, #C9C9C9, #696969);
+}
+
+.Box2
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(bottom, #C9C9C9, #696969);
+}
+
+.Box3
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(left, #C9C9C9, #696969);
+}
+
+.Box4
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(top, #C9C9C9, #696969);
+}
+
+DIV#Circle
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+  
+    border-radius: 55px;
+    
+    z-index: 4;
+}
+
+div#circletop
+{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    width: 92%;
+    height: 46%;
+    
+/*background: -webkit-linear-gradient(bottom, #00b3b3, #004d4d);*/
+background: url("BACKGROUNDS/concrete_wall_2.png");
+border-top-right-radius: 255px;
+border-top-left-radius: 255px;
+
+border-width: 3px;
+border-style: solid;
+border-color: #bb0000;
+
+}
+
+div#circlebottom
+{
+        position: absolute;
+    bottom: 4%;
+    left: 3%;
+    width: 92%;
+    height: 46%;
+    background: url("BACKGROUNDS/concrete_wall_2.png");
+/* background: -webkit-linear-gradient(top, #00b3b3, #004d4d);*/
+
+border-bottom-right-radius: 255px;
+border-bottom-left-radius: 255px;
+
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: #bb0000;
+
+border-left-width: 3px;
+border-left-style: solid;
+border-left-color: #bb0000;
+
+border-right-width: 3px;
+border-right-style: solid;
+border-right-color: #bb0000;
+
+}
+
+
+#R
+{
+    position: absolute;
+    top: -15px;
+    left: 9px;
+    width: 100%;
+text-align: center;
+    
+/*top: -2px;
+    left: 45px;
+    width: 100%;*/
+
+    
+    font-family: 'Coda Caption', sans-serif;
+    color: #d00000;
+
+    font-size: 10em;
+    z-index: 10;
+    
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #8a0000;
+}
+
+#S
+{
+    position: absolute;
+    color: #808080;
+    
+    font-size: 7em;
+    
+    font-family: 'Fjalla One', sans-serif;
+    
+    left: 15px;
+    top: 40px;
+     z-index: 19;
+    
+}
+
+
+/*
+root { 
+    display: block;
+}
+
+DIV#BOX
+{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    
+    width: 220px;
+    height: 220px;
+    
+    
+}
+
+.Box1
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(right, #bb0000, #ff2222);
+}
+
+.Box2
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(bottom, #bb0000, #ff2222);
+}
+
+.Box3
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(left, #bb0000, #ff2222);
+}
+
+.Box4
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    
+    width: 50%;
+    height: 50%;
+    
+    background: -webkit-linear-gradient(top, #bb0000, #ff2222);
+}
+
+DIV#Circle
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+  
+    border-radius: 55px;
+    
+    z-index: 4;
+}
+
+div#circletop
+{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    width: 92%;
+    height: 46%;
+    
+background: -webkit-linear-gradient(bottom, #00b3b3, #004d4d);
+background: url("BACKGROUND_IMAGES/fabric_of_squares_gray.png");
+border-top-right-radius: 255px;
+border-top-left-radius: 255px;
+
+border-width: 3px;
+border-style: solid;
+border-color: #004d4d;
+
+}
+
+div#circlebottom
+{
+        position: absolute;
+    bottom: 4%;
+    left: 3%;
+    width: 92%;
+    height: 46%;
+    background: url("BACKGROUND_IMAGES/fabric_of_squares_gray.png");
+ background: -webkit-linear-gradient(top, #00b3b3, #004d4d);
+
+border-bottom-right-radius: 255px;
+border-bottom-left-radius: 255px;
+
+border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: #004d4d;
+
+border-left-width: 3px;
+border-left-style: solid;
+border-left-color: #004d4d;
+
+border-right-width: 3px;
+border-right-style: solid;
+border-right-color: #004d4d;
+
+}
+
+
+#R
+{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 100%;
+
+    text-align: center;
+    
+    color: #00b3b3;
+    font-family: 'Fondamento', cursive;
+    font-family: 'Arizonia', cursive;
+    
+    
+    font-size: 12em;
+    z-index: 10;
+    
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #004d4d;
+}*/

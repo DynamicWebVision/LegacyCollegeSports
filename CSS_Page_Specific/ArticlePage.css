@@ -1,0 +1,97 @@
+/* 
+    Document   : ArticlePage
+    Created on : Oct 29, 2013, 12:42:25 AM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#TopImage
+{
+    float: left;
+    
+    
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: #888888;
+    border-radius: 2px;
+    
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.ArticleTitle
+{
+    font-size: 2.4em;
+font-family: 'Francois One', sans-serif;
+margin-bottom: 0px;
+}
+
+.SecondaryHead
+{
+    position: relative;
+
+
+margin-bottom: 10px;
+margin-top: 15px;
+font-style: italic;
+font-weight: bold;
+font-size: 1.2em;
+color: #8a0000;
+}
+
+
+.ArticleAuthorLine
+{
+    position: relative;
+    
+    width: 100%;
+    
+    font-size: .8em;
+    
+    color: #C4C4C4;
+    
+    margin-bottom: 35px;
+}
+
+DIV#ArticleContentWrap
+{   
+
+    position: relative;
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 1%;
+    
+    margin-bottom: 80px;
+}
+
+.SeventyPush
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+DIV#ShareContain
+{
+    position: absolute;
+    right: 55px;
+    top: 85px;
+}
+
+
+DIV#FacebookCommentsContain
+{
+    position: relative;
+    width: 100%;
+    
+    left: 0px;
+    
+    margin-top: 45px;
+    margin-bottom: 15px;
+}

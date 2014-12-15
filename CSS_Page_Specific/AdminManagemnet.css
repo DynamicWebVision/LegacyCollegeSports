@@ -1,0 +1,70 @@
+/* 
+    Document   : AdminManagemnet
+    Created on : Feb 28, 2014, 10:51:24 PM
+    Author     : Brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.HeismanLineAM
+{
+    position: relative;
+    margin-bottom: 20px;
+    
+    width: 80%;
+    left: 10%;
+    
+    height: 30px;
+}
+
+.heiyear
+{
+    position: absolute;
+    left: 0px;
+}
+
+.SchoolDropwDown
+{
+    position: absolute;
+    left: 100px;
+}
+
+.Record1
+{
+    position: absolute;
+    left: 340px;
+}
+
+.StatusDate
+{
+    position: absolute;
+    left: 630px;
+    
+    font-size: .7em;
+    font-style: italic;
+}
+
+.FrontItemHeader
+{
+    position: relative;
+margin-bottom: 10px;
+margin-top: 15px;
+font-style: italic;
+font-weight: bold;
+font-size: 1.2em;
+color: #8a0000;
+}
+
+.head
+{
+    font-weight: bold;
+}
+
+.ML
+{
+    margin-left: 30px;
+}
